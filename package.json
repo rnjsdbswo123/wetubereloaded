@@ -2,15 +2,20 @@
   "name": "youtubeclone",
   "version": "1.0.0",
   "description": "The best way to watch a videos.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rnjsdbswo123/wetubereloaded.git"
+  },
+  "scripts": {
+    "start": "node index.js"
   },
   "author": "yoonjae",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rnjsdbswo123/wetubereloaded/issues"
   },
-  "homepage": "https://github.com/rnjsdbswo123/wetubereloaded#readme"
+  "homepage": "https://github.com/rnjsdbswo123/wetubereloaded#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
